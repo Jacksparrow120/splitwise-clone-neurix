@@ -1,0 +1,42 @@
+# ---- Global ----
+*.log
+.env
+.env.*
+*.env
+
+# ---- Python (FastAPI backend) ----
+__pycache__/
+*.py[cod]
+*.sqlite3
+*.db
+venv/
+ENV/
+env/
+.SW_*
+
+# VS Code
+.vscode/
+
+# ---- Node (React frontend) ----
+frontend/node_modules/
+frontend/build/
+frontend/.env
+frontend/.env.*
+
+# ---- macOS/Linux/Windows ----
+.DS_Store
+Thumbs.db
+
+# ---- Docker ----
+*.pid
+*.sock
+*.tar
+docker-compose.override.yml
+
+# ---- Git ----
+*.orig
+
+# Virtual environments
+venv/
+env/
+S_CLONE/
